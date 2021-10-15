@@ -1,6 +1,9 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
 
 .center {
   text-align: center;
+}
+.bg-3ec {
+  background-color: #ececec;
 }

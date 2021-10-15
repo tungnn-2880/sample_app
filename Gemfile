@@ -12,6 +12,7 @@ gem "jbuilder", "~> 2.7"
 gem "bootstrap-sass", "3.4.1"
 gem "rails-i18n", "~> 6.0.0"
 gem "config"
+gem "bcrypt", "3.1.13"
 
 gem "bootsnap", ">= 1.4.4", require: false
 
