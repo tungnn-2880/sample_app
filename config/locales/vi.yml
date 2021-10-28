@@ -14,6 +14,12 @@ vi:
   will_paginate:
     previous_label: "&#8592; Trang trước"
     next_label: "Trang sau &#8594;"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản của bạn"
+      greeting: "Chào mừng %{name} tới \"My Sample App\""
+      greeting_html: "Chào mừng %{name} tới <i>\"My Sample App\"</i>"
+      activation: "Truy cập đường dẫn dưới đây để kích hoạt tài khoản của bạn"
   app_name: "My Sample App"
   welcome_logged_in_message_html: "Xin chào, <i>%{username}</i>"
   user_not_found: "Người dùng không tồn tại"
@@ -26,6 +32,9 @@ vi:
   must_same_user_html: "Phải đăng nhập bằng người dùng <i>%{username}"
   must_be_admin: "Phải đăng nhập bằng Người quản trị"
   email_or_password_incorrect: "Email hoặc mật khẩu vừa nhập không chính xác"
+  please_activate_account: "Vui lòng kích hoạt tài khoản của bạn"
+  account_activated: "Tài khoản của bạn đã được kích hoạt. Xin hãy đăng nhập"
+  invalid_activation_link: "Đường dẫn kích hoạt tài khoản không hợp lệ"
   sign_up_now: "Đăng ký ngay!"
   new_user: "Chưa có tài khoản?"
   reset_text: "Phục hồi mặc định"

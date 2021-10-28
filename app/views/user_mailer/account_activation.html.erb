@@ -1,0 +1,4 @@
+<h1><%= t ".greeting_html", name: @user.name %></h1>
+
+<p><%= t ".activation" %>.</p>
+<p><%= link_to nil, edit_account_activation_url(@user.activation_token, email: @user.email) %></p>
