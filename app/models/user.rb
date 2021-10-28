@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  scope :order_by_name, ->(sort_order){order("LOWER(name) #{sort_order}")}
   VALID_EMAIL_REGEX = /\A[\w\-.+]+@[a-z\-\d.]+\.[a-z]+\z/i.freeze
   before_save{email.downcase!}
   validates :name, presence: true,
